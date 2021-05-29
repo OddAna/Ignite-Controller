@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana", monospace;
+  color: white;
+  font-size: 0.7em;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.login-sign-screen{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  height: 100vh;
+}
+.left-bar{
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  background-color: #1b1b1b;
+}
+.right-bar{
+  background-color: red;
+}
+.head-text{
+  margin-left: 20%;
+  margin-right: 20%;
+  align-self: end;
+  margin-bottom: 1em;
+}
+.user-form{
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+  display: grid;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-self: start;
+}
+.user-form-texts{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.4em;
+  font-family: "Palatino", sans-serif;
+  margin-left: 2em;
+}
+.sub-text{
+  margin: 0;
+  padding: 0;
+  margin-top: 2px;
+  font-family: "Palatino", sans-serif;
+}
+.main-text{
+  margin: 0;
+  padding: 0;
+  color: #0597f2;
+}
+.user-form > input{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+  height: 2em;
+  border-style: solid;
+  border-width: 0.1em;
+  outline: none;
+  border-radius: 25px 25px 25px 25px;
+  background: transparent;
+  text-decoration: none;
+}
+.small-text{
+  margin: 0;
+  padding: 0;
+  font-size: 0.6em;
+}
+#forgat-text{
+  text-align: right;
+}
+.form-button{
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.form-button > input{
+  margin: 0;
+  padding: 0;
+  height: 2em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #05f2d8;
+  outline: none;
+  border-radius: 25px 25px 25px 25px;
+  background: #05f2d8;
+  text-decoration: none;
+}
+.remember-me{
+  display: grid;
+  grid-template-columns: 1fr 1000fr;
+  justify-items:start;
+}
+
+#remember-me{
+  align-self: center;
+  justify-self:start;
+}
